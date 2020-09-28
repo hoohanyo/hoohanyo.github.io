@@ -1,0 +1,36 @@
+#contact {
+    display: inline;
+    
+  }
+
+.contact-item {
+    margin: 5px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    float: none;
+    width: fit-content;
+    height: auto;
+    background-color: rgb(33, 34, 34);
+   
+    
+}
+
+.item1 {
+   
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+    height: 400px;
+    color: bisque;
+}
+
+#googleMap {
+    
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 400px;
+    height: 400px;
+    
+}
