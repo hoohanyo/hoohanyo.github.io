@@ -76,7 +76,7 @@
             background-color: rgb(59, 59, 59);
         }
 
-        .nav ul {
+        ul.nav {
             list-style-type: none;
             margin: 0;
             padding: 0;
@@ -90,18 +90,18 @@
             box-shadow: none;
         }
 
-        .nav li {
+        ul.nav li {
             float: left;
         }
 
-        .nav li.right {
+        ul.nav li.right {
             float: right;
         }
 
         @media screen and (max-width: 600px) {
 
-            .nav li.right,
-            .nav li {
+            ul.nav li.right,
+            ul.nav li {
                 float: none;
             }
 
@@ -110,7 +110,7 @@
             }
         }
 
-        .nav li a {
+        ul.nav li a {
             display: block;
             color: white;
             text-align: center;
@@ -121,7 +121,7 @@
             margin: 5px;
         }
 
-        .nav li a:hover {
+        ul.nav li a:hover {
             background-color: rgb(10, 103, 146);
         }
 
@@ -129,7 +129,7 @@
             background-color: #292929;
         }
     </style>
-    <title>Document</title>
+    <title>Anno Coach Travel</title>
 </head>
 
 <body>
@@ -166,15 +166,12 @@
         <span class="dot"></span>
     </div>
 
-    <div class="nav">
-        <ul>
-
-            <li><a class="active" href="#home">Főoldal</a></li>
-            <li><a href="#news">Galéria</a></li>
-            <li><a href="#contact">Kapcsolat</a></li>
-            <li class="right"><a href="#about">Rólunk</a></li>
-        </ul>
-    </div>
+    <ul class="nav">
+        <li><a class="active" href="#home">Főoldal</a></li>
+        <li><a href="#news">Galéria</a></li>
+        <li><a href="#contact">Kapcsolat</a></li>
+        <li class="right"><a href="#about">Rólunk</a></li>
+    </ul>
 
 
     <h3>Sticky Navigation Bar Example</h3>
@@ -245,13 +242,11 @@
                 <div class="desc">Add a description of the image here</div>
             </div>
         </div>
-
     </div>
 
     <br>
 
     <footer>
-
         <div id="contact">
             <fieldset style="text-align: center;">
                 <legend>
@@ -259,7 +254,15 @@
                 </legend>
 
                 <div class="contact-item">
-                    <div class="item1">
+                    <div class="item1" style="text-align: center;">
+                        <ul>
+                            <li>Tulajdonos:</li>
+                            <li>Telephely</li>
+                            <li>Telefonszám</li>
+                        </ul>
+                    </div>
+
+                    <div class="item2">
                         <ul>
                             <li>Tulajdonos:</li>
                             <li>Telephely</li>
@@ -271,13 +274,13 @@
                 </div>
         </div>
         </fieldset>
-
     </footer>
 
 
     <script src="js/slide.js"></script>
     <script src="js/googlemap.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyA7yI9qyN60YDh8K2cYymLSmQWuE5OoICc&callback=myMap"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?AIzaSyA7yI9qyN60YDh8K2cYymLSmQWuE5OoICc&callback=myMap"></script>
 </body>
 
 </html>
