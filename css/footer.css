@@ -20,7 +20,7 @@
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 33%;
+    width: 33.2%;
     height: 400px;
     color: bisque;
 }
@@ -30,7 +30,7 @@
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 33%;
+    width: 33.2%;
     height: 400px;
     color: bisque;
 }
@@ -39,8 +39,8 @@
     
     margin: 5px;
     border: 1px solid #ccc;
-    float: right;
-    width: 33%;
+    float: left;
+    width: 33.2%;
     height: 400px;
     
 }
