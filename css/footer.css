@@ -7,7 +7,7 @@
     margin: 5px;
     border: 1px solid #ccc;
     overflow: hidden;
-    float: none;
+    float: left;
     width: auto;
     height: auto;
     background-color: rgb(33, 34, 34);
@@ -20,7 +20,7 @@
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 33.2%;
+    width: auto;
     height: 400px;
     color: bisque;
 }
@@ -30,7 +30,7 @@
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 33.2%;
+    width: auto;
     height: 400px;
     color: bisque;
 }
@@ -39,8 +39,8 @@
     
     margin: 5px;
     border: 1px solid #ccc;
-    float: left;
-    width: 33.2%;
+    float: right;
+    width: auto;
     height: 400px;
     
 }
