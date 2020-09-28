@@ -44,3 +44,10 @@
     height: 400px;
     
 }
+
+@media screen and (max-width: 600px) {
+
+    .item1, .item2, #googleMap
+    {
+        float: none;
+    }
