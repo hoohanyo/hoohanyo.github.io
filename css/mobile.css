@@ -17,7 +17,7 @@ body {
     position: relative;
   }
   
-  .topnav #myLinks {
+  .topnav-mobile #myLinks {
     display: none;
   }
   
@@ -43,6 +43,6 @@ body {
   }
   
   .active {
-    background-color: #4CAF50;
+    background-color: #0c1588;
     color: white;
   }
