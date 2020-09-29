@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/column.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 
@@ -21,6 +23,33 @@
         <a class="left" href="#">Link</a>
         <a class="right" href="#">Link</a>
     </div>
+
+
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav-mobile">
+            <a href="#home" class="active">Logo</a>
+            <div id="myLinks">
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div style="padding-left:16px">
+            <h3>Vertical Mobile Navbar</h3>
+            <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
+            <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
+        </div>
+
+        <!-- End smartphone / tablet look -->
+    </div>
+
 
     <div class="row">
         <div class="column" style="background-color:#aaa;">
@@ -42,10 +71,10 @@
     </div>
 
 
-    <p>
-        When the browser's width is 600px wide or less, hide the div element. Resize the browser window to see the
-        effect.
-    </p>
+
+
+    <script> js/topnav-mobile.js </script>
+
 </body>
 
 </html>
