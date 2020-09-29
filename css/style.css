@@ -1,0 +1,39 @@
+body {
+    background-color: teal;
+}
+
+/* 960px felbontásnál kisebb eszközök */
+@media only screen and (max-width: 992px) {
+    body {
+        background-color: tomato;
+    }
+}
+
+/* Tablet álló méret 768px-960px
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+     body {
+         background-color: turquoise;
+     }
+ } */
+ 
+ /* Mobil méretek */
+ @media only screen and (max-width: 767px) {
+     body {
+        background-color: turquoise;
+    }
+    .example {
+        display: none;
+     
+     }
+ }
+
+ /* Mobil fekvőtől tablet állóig 
+ @media only screen and (min-width: 480px) and (max-width: 767px) {}*/
+ 
+ /* Mobil álló mérettől mobil fekvőig
+ @media only screen and (max-width: 479px) {} */
+
+ .example {
+     background-color: violet;
+     padding: 25px;
+ }
