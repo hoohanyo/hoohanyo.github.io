@@ -45,7 +45,7 @@ body {
   }
   
   /* Style the topnav links */
-  .topnav a {
+  .topnav a.left {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -59,8 +59,13 @@ body {
       text-align: center;
   }
   
-  .topnav a .right {
+  .right {
     float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
   
   /* Change color on hover */
@@ -69,13 +74,44 @@ body {
     color: black;
   }
   
-  /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+  /* On screens that are 767px wide or less, make the menu links stack on top of each other instead of next to each other */
   @media screen and (max-width: 767px) {
+   body {
+     background-color: aqua;
+  }
     .topnav a {
       float: none;
       width: 100%;
     }
     p {
         display: none;
+    }
+  }
+
+  /* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+  }
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
     }
   }
