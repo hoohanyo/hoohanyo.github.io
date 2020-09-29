@@ -30,7 +30,7 @@ body {
   }
   
   .topnav-mobile a.icon {
-    background: black;
+    background: rgb(141, 7, 7);
     display: block;
     position: absolute;
     right: 0;
@@ -38,11 +38,11 @@ body {
   }
   
   .topnav-mobile a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: rgb(56, 55, 55);
+    color: rgb(153, 149, 149);
   }
   
   .active {
-    background-color: #0c1588;
+    background-color: #c02d2d;
     color: white;
   }

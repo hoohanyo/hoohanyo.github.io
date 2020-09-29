@@ -39,7 +39,7 @@ body {
   }
 
   .logo {
-      color: beige;
+      color: rgb(0, 0, 0);
       text-align: center;
   }
   
@@ -77,13 +77,14 @@ body {
   /* Change color on hover */
   .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: rgb(0, 0, 0);
   }
   
   /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
    body {
-     background-color: aqua;
+     background-color: rgb(255, 255, 255);
+     
   }
     /*.topnav a {
       float: none;

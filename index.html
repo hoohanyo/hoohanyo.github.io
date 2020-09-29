@@ -14,7 +14,7 @@
 <body>
 
     <div class="logo">
-        <h1>Anno Coach Travel </h1>
+        <h1 style="font-family: monospace;">Anno Coach Travel </h1>
     </div>
 
     <div class="topnav">
@@ -37,7 +37,7 @@
                 <a href="#about">About</a>
             </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
+                <i class="fa fa-bars" style="color: red;"></i>
             </a>
         </div>
 
@@ -70,10 +70,16 @@
         </div>
     </div>
 
-
-
-
-    <script>js/topnav-mobile.js</script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 
 </body>
 
