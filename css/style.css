@@ -55,8 +55,9 @@ body {
   }
 
   p {
-      float: left;
-      text-align: center;
+    float: left;
+    text-align: center;
+    color: #f2f2f2;
   }
   
   .right {
@@ -74,17 +75,14 @@ body {
     color: black;
   }
   
-  /* On screens that are 767px wide or less, make the menu links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 767px) {
+  /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
    body {
      background-color: aqua;
   }
     .topnav a {
       float: none;
       width: 100%;
-    }
-    p {
-        display: none;
     }
   }
 
