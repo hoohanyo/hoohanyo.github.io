@@ -53,6 +53,15 @@ body {
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  p {
+      float: left;
+      text-align: center;
+  }
+  
+  .right {
+    float: right;
+  }
   
   /* Change color on hover */
   .topnav a:hover {
@@ -62,8 +71,11 @@ body {
   
   /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
   @media screen and (max-width: 767px) {
-    .topnav a {
+    .topnav a, .right {
       float: none;
       width: 100%;
+    }
+    p {
+        display: none;
     }
   }
