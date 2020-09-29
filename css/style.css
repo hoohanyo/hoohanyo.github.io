@@ -59,7 +59,7 @@ body {
       text-align: center;
   }
   
-  .right {
+  .topnav a .right {
     float: right;
   }
   
@@ -71,7 +71,7 @@ body {
   
   /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
   @media screen and (max-width: 767px) {
-    .topnav a, .right {
+    .topnav a {
       float: none;
       width: 100%;
     }
