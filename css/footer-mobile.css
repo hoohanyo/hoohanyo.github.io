@@ -1,0 +1,76 @@
+ body {
+    font-family: "Lato", sans-serif;
+}
+
+
+.sidepanel {
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    visibility: hidden;
+    position: fixed;
+    z-index: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 3.75em;
+    overflow: hidden;
+}
+
+.sidepanel a {
+    padding: 0.5em 0.5em 0.5em 2em;
+    text-decoration: none;
+    font-size: 1.5625em;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+
+#openbtn {
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    font-size: 1.25em;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 0.625em 0.9375em;
+    border: none;
+    visibility: visible;
+    width: 100%;
+}
+
+#openbtn:hover {
+    background-color: #444;
+}
+
+#closebtn {
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    font-size: 1.25em;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 0.625em 0.9375em;
+    border: none;
+    visibility: hidden;
+    width: 100%;
+}
+
+#closebtn:hover {
+    background-color: #444;
+}
+
+@media (min-width: 700px) {
+
+    .sidepanel {
+        display: none;
+    }
+}

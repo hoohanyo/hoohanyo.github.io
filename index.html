@@ -1,85 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+    <title>Page Title</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/column.css">
-    <link rel="stylesheet" href="css/mobile.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/footer-mobile.css">
+    <link rel="stylesheet" href="css/responsive.css">
+   
 </head>
 
 <body>
 
-    <div class="logo">
-        <h1 style="font-family: monospace;">Anno Coach Travel </h1>
+   
+
+    <!-- Header -->
+    <div class="header">
+        <h1>My Website</h1>
+        <p>With a <b>flexible</b> layout.</p>
     </div>
 
-    <div class="topnav">
-        <a class="left" href="#">Link</a>
-        <a class="left" href="#">Link</a>
-        <a class="left" href="#">Link</a>
-        <a class="right" href="#">Link</a>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
     </div>
 
-
-    <!-- Simulate a smartphone / tablet -->
-    <div class="mobile-container">
-
-        <!-- Top Navigation Menu -->
-        <div class="topnav-mobile">
-            <a href="#home" class="active">Logo</a>
-            <div id="myLinks">
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-            </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars" style="color: red;"></i>
-            </a>
-        </div>
-
-        <div style="padding-left:16px">
-            <h3>Vertical Mobile Navbar</h3>
-            <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
-            <p>Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
-        </div>
-
-        <!-- End smartphone / tablet look -->
-    </div>
-
-
+    <!-- The flexible grid (content) -->
     <div class="row">
-        <div class="column" style="background-color:#aaa;">
-            <h2>Column 1</h2>
-            <p>Some text..</p>
+        <div class="side">
+            <h2>About Me</h2>
+            <h5>Photo of me:</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            <h3>More Text</h3>
+            <p>Lorem ipsum dolor sit ame.</p>
+            <div class="fakeimg" style="height:60px;">Image</div><br>
+            <div class="fakeimg" style="height:60px;">Image</div><br>
+            <div class="fakeimg" style="height:60px;">Image</div>
         </div>
-        <div class="column" style="background-color:#bbb;">
-            <h2>Column 2</h2>
+        <div class="main">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Dec 7, 2017</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
             <p>Some text..</p>
-        </div>
-        <div class="column" style="background-color:#ccc;">
-            <h2>Column 3</h2>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco.</p>
+            <br>
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Sep 2, 2017</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
             <p>Some text..</p>
-        </div>
-        <div class="column" style="background-color:#ddd;">
-            <h2>Column 4</h2>
-            <p>Some text..</p>
+            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco.</p>
         </div>
     </div>
 
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myLinks");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
-        }
-    </script>
+    <div id="mySidepanel" class="sidepanel">
+
+        <a href="javascript:void(0)"></a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+
+        <button id="openbtn" onclick="openNav()">☰ Open</button>
+        <button id="closebtn" onclick="closeNav()">X Close</button>
+    </div>
+
+   
+
+    <script src="js/footer.js"></script>
+
+
+   
 
 </body>
 

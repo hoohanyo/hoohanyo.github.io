@@ -1,10 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+
+.image {
+  width: 10%;
+  height: 10%;
+}
+
   .mobile-container {
-    max-width: 480px;
-    margin: auto;
+    width: 100%;
+    margin: 2px;
     background-color: #555;
     height: 500px;
     color: white;
