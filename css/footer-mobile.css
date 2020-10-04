@@ -20,17 +20,14 @@
 
 
 .sidepanel {
-    
     bottom: 0;
     height: 0;
     width: 100%;
     visibility: hidden;
     position: fixed;
-   
     background-color: #111;
-    overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 3.75em;
+    padding-top: 0.625em;
     overflow: hidden;
 }
 
@@ -49,7 +46,6 @@
 
 
 #openbtn {
-    
     bottom: 0;
     position: fixed;
     font-size: 1.25em;
@@ -67,7 +63,6 @@
 }
 
 #closebtn {
-    
     bottom: 0;
     position: fixed;
     font-size: 1.25em;
@@ -82,6 +77,10 @@
 
 #closebtn:hover {
     background-color: #444;
+}
+
+.footer {
+    bottom: 15.625em;
 }
 
 @media (min-width: 43.75em) {
