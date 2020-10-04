@@ -12,6 +12,7 @@
 /* Style the body */
 body {
     margin: 0;
+    color: white;
 }
 
 /* Header/logo Title */
@@ -42,16 +43,17 @@ body {
 /* Style the navigation bar links */
 .navbar a {
     color: white;
-    padding: 0.625em 0.625em;
+    padding: 0.625em 2em;
     text-decoration: none;
     text-align: center;
     font-family: "Lora";
+    margin: 4px;
 }
 
 /* Change color on hover */
 .navbar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #6b3940;
+    color: white;
 }
 
 .navbar-text {
