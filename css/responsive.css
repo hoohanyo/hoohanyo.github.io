@@ -8,9 +8,9 @@
     font-weight: 500;
 }
 
+
 /* Style the body */
 body {
-    font-family: "Lora";
     margin: 0;
 }
 
@@ -22,16 +22,14 @@ body {
     font-family: "Lora";
     color: white;
     overflow: hidden;
+    /*background-image: url("/img/VDL.jpg");
+    background-repeat: no-repeat;*/
 }
 
 .header img {
     width: 62.5em;
     height: 20em;
     padding: 0.625em;
-}
-
-.h-text {
-    margin: 0.625em;
 }
 
 /* Style the top navigation bar */
@@ -43,15 +41,29 @@ body {
 /* Style the navigation bar links */
 .navbar a {
     color: white;
-    padding: 0.875em 1.25em;
+    padding: 0.625em 0.625em;
     text-decoration: none;
     text-align: center;
+    font-family: "Lora";
 }
 
 /* Change color on hover */
 .navbar a:hover {
     background-color: #ddd;
     color: black;
+}
+
+.navbar-text {
+    width: 100%;
+    text-align: right;
+    padding: 0.625em 0.625em;
+    margin: 0;
+}
+
+.navbar-text h3 {
+    margin: 0;
+    color: white;
+    font-family: "Lora";
 }
 
 /* Column container */
@@ -100,4 +112,7 @@ body {
         display: none;
     }
 
+    .header img {
+        display: none;
+    }
 }
