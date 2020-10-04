@@ -1,5 +1,5 @@
 function openNav() {
-    document.getElementById("mySidepanel").style.height = "15.625em";
+    document.getElementById("mySidepanel").style.height = "21.875em";
     document.getElementById("mySidepanel").style.visibility = "visible";
     document.getElementById("openbtn").style.visibility = "hidden";
     document.getElementById("closebtn").style.visibility = "visible";
