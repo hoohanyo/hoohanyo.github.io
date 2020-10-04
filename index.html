@@ -21,12 +21,12 @@
     </div>
 
     <!-- Navigation Bar -->
-    <div class="navbar">
-        <a href="#">Főoldal</a>
+    <div id="navbar">
+        <a href="#home">Főoldal</a>
         <a href="#">Szolgáltatás</a>
         <a href="#">Galéria</a>
-        <a href="#">Kapcsolat</a>
-        <a href="#">Rólunk</a>
+        <a href="#about">Rólunk</a>
+        <a href="#contact">Kacsolat</a>
         <div class="navbar-text">
             <h3> ANNO Coach Travel</h3>
         </div>
@@ -65,7 +65,7 @@
         </div>
     </div>
 
-    <div class="footer">
+    <div id="contact">
         <div class="footer-side">
             <h2>TITLE HEADING</h2>
             <h5>Title description, Sep 2, 2017</h5>
@@ -83,11 +83,11 @@
 
     <div id="mySidepanel" class="sidepanel">
 
-        <a href="#">Főoldal</a>
-        <a href="#">Szolgáltatás</a>
-        <a href="#">Galéria</a>
-        <a href="#">Kapcsolat</a>
-        <a href="#">Rólunk</a>
+        <a href="#" onclick="closeNav()" >Főoldal</a>
+        <a href="#" onclick="closeNav()" >Szolgáltatás</a>
+        <a href="#" onclick="closeNav()" >Galéria</a>
+        <a href="#" onclick="closeNav()" >Rólunk</a>
+        <a href="#" onclick="closeNav()" >Kapcsolat</a>
 
         <button id="openbtn" onclick="openNav()">☰ Open</button>
         <button id="closebtn" onclick="closeNav()">X Close</button>
@@ -97,6 +97,7 @@
 
 
     <script src="js/footer.js"></script>
+    <script src="js/onscroll.js"></script>
 
 
 
