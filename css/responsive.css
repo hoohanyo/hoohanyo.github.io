@@ -48,6 +48,7 @@ body {
     text-align: center;
     font-family: "Lora";
     margin: 4px;
+    display: flex;
 }
 
 /* Change color on hover */
