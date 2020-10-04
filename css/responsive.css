@@ -36,6 +36,7 @@ body {
 .navbar {
     display: flex;
     background-color: #333;
+    border: 2px solid white;
 }
 
 /* Style the navigation bar links */
@@ -76,14 +77,14 @@ body {
 /* Sidebar/left column */
 .side {
     flex: 30%;
-    background-color: #f1f1f1;
+    background-color: #6b3940;
     padding: 1.25em;
 }
 
 /* Main column */
 .main {
     flex: 70%;
-    background-color: white;
+    background-color: #2b1721;
     padding: 1.25em;
 }
 
@@ -91,7 +92,7 @@ body {
 .fakeimg {
     background-color: #aaa;
     width: 100%;
-    padding: 1.25em;
+    padding: 0.3125em;
 }
 
 /* Footer */
