@@ -111,6 +111,22 @@ body {
 }
 
 /* Fake image, just for this example */
+
+.fakeimg-one {
+    background-color:none;
+    width: 100%;
+    padding: 0.3125em;
+    overflow: hidden;
+}
+
+.fakeimg-one img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 85%;
+}
+
+
 .fakeimg-two {
     background-color:none;
     width: 100%;
