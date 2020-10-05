@@ -36,7 +36,7 @@ body {
 /* Style the top navigation bar */
 #navbar {
     display: flex;
-    background-color: #7175b3;
+    background-color:#6b3940;
     border: 2px solid #fbf8fb;
 }
 
@@ -51,12 +51,13 @@ body {
     display: flex;
     border: 1px solid rgb(92, 90, 90);
     box-shadow: 3px 3px 10px #2b1721;
-    background-color: #3222c2;
+    background-color: #2b1721;
+    border-radius: 8px;
 }
 
 /* Change color on hover */
 #navbar a:hover {
-    background-color: rgb(95, 94, 94);
+    background-color: #6b3940;
     color: white;
     }
 
@@ -65,8 +66,10 @@ body {
     text-align: right;
     padding: 0.625em 0.625em;
     margin: 8px 8px 8px auto;
-    border: 1px solid rgb(92, 90, 90);
+    border: 4px solid #ff2800;
     box-shadow: 3px 3px 10px #2b1721;
+    background-color: #593f42;
+    border-radius: 10px;
 }
 
 .navbar-text h3 {
@@ -85,6 +88,7 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 /* Create two unequal columns that sits next to each other */
@@ -102,17 +106,46 @@ body {
     padding: 1.25em;
 }
 
+.main p {
+    text-align: justify;
+}
+
 /* Fake image, just for this example */
-.fakeimg {
+.fakeimg-two {
     background-color:none;
     width: 100%;
     padding: 0.3125em;
+    overflow: hidden;
 }
+
+.fakeimg-two img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 70%;
+}
+
+.fakeimg-three {
+    background-color:none;
+    width: 100%;
+    padding: 0.3125em;
+    overflow: hidden;
+}
+
+.fakeimg-three img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 70%;
+}
+
+
 
 /* Footer */
 #contact {
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .footer-side {
@@ -145,4 +178,7 @@ body {
     body {
         margin-bottom: 3em;
     }
+
+    .side, .main, #contact {
+        width: 100%;
 }
