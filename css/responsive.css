@@ -43,7 +43,7 @@ body {
 /* Style the navigation bar links */
 #navbar a {
     color: white;
-    padding: 0.625em 2em;
+    padding: 1em 2em 0.625em 2em;
     text-decoration: none;
     font-family: sans-serif;
     margin: 8px;
@@ -197,4 +197,5 @@ body {
 
     .side, .main, #contact {
         width: 100%;
+}
 }
