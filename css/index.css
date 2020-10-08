@@ -1,0 +1,139 @@
+
+
+body {
+   background-color: black;
+    color: white;
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: sans-serif;
+    overflow: hidden;
+    background-image: url("/img/parallax6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    display: block;
+    
+}
+
+.pages {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.page-content {
+    box-sizing: border-box;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    overflow: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0 2%;
+    width: calc(100% - 2% * 2);
+}
+
+.navbar--fixed-top {
+    top: 0;
+}
+
+.navbar--fixed {
+    position: fixed;
+    left: 0;
+    z-index: 999999;
+}
+
+.navbar__col--title {
+    font-weight: 200;
+}
+
+.navbar__col {
+    flex-grow: 1;
+}
+
+.navbar__col--icon {
+    flex-grow: 0;
+    position: relative;
+    width: 30px;
+}
+
+.navbar__col--icon-menu a {
+    display: flex;
+    flex-wrap: wrap;
+    width: 22px;
+}
+
+.navbar__col--icon-menu span {
+    width: 5px;
+    height: 5px;
+    border: 1px solid #ff6251;
+    margin: 2px;
+}
+
+.navbar__col--title a {
+    color: #fff;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar__col--title span {
+    font-weight: 700;
+    color: #ff6251;
+}
+
+@media screen and (max-width: 780px) {
+
+    body {
+         background-image: url("/img/futura-bulgarije.jpg");
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
+
+.navbar {
+    width: calc(100% - 5% * 2);
+    padding: 0 2%;
+    height: 60px;
+}
+
+.navbar__col--title {
+    font-size: 34px;
+}
+.navbar__col--icon {
+    width: 20px;
+}
+.navbar--fixed {
+    position: fixed;
+    right: 0;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

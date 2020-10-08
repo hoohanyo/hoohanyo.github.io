@@ -31,6 +31,7 @@ body {
     padding-top: 0.625em;
     padding-bottom: 2.1875em;
     overflow: hidden;
+    
 }
 
 .sidepanel a {
@@ -39,10 +40,12 @@ body {
     font-size: 1.5625em;
     color: #818181;
     display: block;
+    
 }
 
 .sidepanel a:hover {
     color: #f1f1f1;
+    
 }
 
 
