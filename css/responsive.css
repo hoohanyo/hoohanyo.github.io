@@ -4,7 +4,13 @@
 
 @font-face {
     font-family: "Roboto";
-    src: url("fonts/Vibes/Vibes-Regular.ttf");
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url("../fonts/Roboto/Roboto-Thin.ttf");
     font-weight: 500;
 }
 
@@ -92,9 +98,7 @@ body {
     flex: 30%;
     background-color: #6b3940;
     padding: 1.25em;
-    border-top: 1px solid #feeeae;
-    border-right: 1px solid #feeeae;
-    
+    border: 1px solid #feeeae;
 }
 
 /* Main column */
@@ -102,7 +106,7 @@ body {
     flex: 70%;
     background-color: #2b1721;
     padding: 1.25em;
-    border-top: 1px solid #feeeae;
+    border: 1px solid #feeeae;
 }
 
 
@@ -192,6 +196,7 @@ body {
 
     body {
         margin-bottom: 3em;
+        font-family: "Roboto-Thin";
     }
 
     .side, .main, #contact {
