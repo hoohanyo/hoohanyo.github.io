@@ -3,8 +3,8 @@
 }
 
 @font-face {
-    font-family: "Roboto-Thin";
-    src: url("/fonts/Roboto/Roboto-Thin.ttf");
+    font-family: "Roboto-Regular";
+    src: url("/fonts/Roboto/Roboto-Regular.ttf");
     font-weight: 500;
 }
 
@@ -13,9 +13,7 @@ body {
     background-color: rgb(131, 133, 129);
     background-image: url("/img/parallax6.jpg");
     background-size: cover;
-    font-family: sans-serif;
-    
-}
+  }
 
 .row {
     display: flex;
@@ -118,20 +116,49 @@ body {
     font-size: 60px;
   }
   
-  /* When the height of the screen is less than 768 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-  @media screen and (max-height: 768px) {
+  /* When the height of the screen is less than 600 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 600px) {
     .overlay a {font-size: 20px}
     .overlay .closebtn {
       font-size: 40px;
       top: 15px;
       right: 35px;
     }
- .row {
-     flex-direction: row;
+
+    body {
+      background-image: url("/img/futura-front.jpg");
+      background-size: cover;
+    }
+
+    .overlay a {
+      font-family: "Roboto-Regular";
+    }
+
+   .row {
+      flex-direction: row;
  }
     
     .side, .main {
         width: 100%;
 }
+    .ancotra {
+      font-size: 33px;
+      font-family: "Roboto-Regular";
+}
+
+     .openbtn {
+  
+     right: 5px;
+     padding: 10px;
+     margin: 10px 5px;
+
+}
+
+    .openbtn span {
+      width: 10px;
+      height: 10px;
+  
+}
+
   }
   
