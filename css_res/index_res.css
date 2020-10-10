@@ -8,22 +8,21 @@ body {
     overflow: hidden;
     position: fixed;
     width: 100%;
-    /*background-color:rgba(0, 0, 0, 0.6);*/
-    background-color:rgba(138, 4, 4, 0.6);
+    background-color:rgba(0, 0, 0, 0.6);
     margin: 2px;
     z-index: 6;
 }
 
 .side-top {
-    flex: 30%;
+    flex: 40%;
 }
 
 .ancotra {
     padding: 10px;
-    margin: 2px 10px;
+    margin: 10px 10px;
     font-family: sans-serif;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
 }
 
@@ -34,7 +33,7 @@ body {
 /*--------------*/
 
 .main-top {
-    flex: 70%;
+    flex: 60%;
     float: right;
     
 }
@@ -50,7 +49,7 @@ body {
 .openbtn span {
         width: 12px;
         height: 12px;
-        border: 1px solid #ff6251;
+        border: 2px solid #ff6251;
         margin: 2px;
 }
 

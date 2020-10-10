@@ -179,82 +179,6 @@ border-radius: 8px;
 }
 
 
-.gold{
-  color:#DAA520;
-}
-
-.gold2{
-  color:#D4AF37;
-}
-
-.gold3{
-  color:#CFB53B;
-}
-
-
-
-
-
-
-.orange{
-  color:#f05720;
-}
-
-
-
-
-.green{
-    color:#20660A;
-}
-
-.gray{
-    color:#383838;
-}
-
-.black{
-    color:#000;
-}
-
-.black-bg{
-    background-color: #000;
-}
-
-
-.gray-bg{
-    background-color: #383838;
-}
-
-.green-bg{
-    background-color: #99cc33;
-}
-
-.lgray-bg{
-   background-color: #e0e0e0;
-}
-
-.dark-bg{
-   background-color: rgba(51, 51, 51, 0.6);
-}
-
-.rounded{
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;
-}
-.underline{
-  text-decoration: underline;
-}
-
-
-
-/* clear button*/
-.btn-clear {
-    border: 1px solid #fbbc00;
-    border-radius: 4px;
-    background: rgba(0, 0, 0, .0);
-    color: #fff;
-    transition: all .3s ease
-}
 
 
 /*red buttons*/
@@ -306,38 +230,6 @@ border-radius: 8px;
 .btn-red.active {
   background-color: #cc0000;
 }
-
-
-.btn-yellow {
-  background-color: #ffff00;
-  border-color: #ffff00;
-}
-.btn-yellow:hover,
-.btn-yellow:focus,
-.btn-yellow:active,
-.btn-yellow.active {
-  background-color: #e6e600;
-  border-color: #cccc00;
-}
-.btn-yellow.disabled:hover,
-.btn-yellow.disabled:focus,
-.btn-yellow.disabled:active,
-.btn-yellow.disabled.active,
-.btn-yellow[disabled]:hover,
-.btn-yellow[disabled]:focus,
-.btn-yellow[disabled]:active,
-.btn-yellow[disabled].active,
-fieldset[disabled] .btn-yellow:hover,
-fieldset[disabled] .btn-yellow:focus,
-fieldset[disabled] .btn-yellow:active,
-fieldset[disabled] .btn-yellow.active {
-  background-color: #ffff00;
-  border-color: #ffff00;
-}
-
-
-
-
 
 
 
@@ -400,12 +292,6 @@ fieldset[disabled] .btn-yellow.active {
     }
   
 
-
-   
-
-
-
-
 @media (max-width: 990px) {
     
     .parallax-3{
@@ -418,10 +304,6 @@ fieldset[disabled] .btn-yellow.active {
     }
 
   }
-
-    
-
-
 
 
 /* Portrait phones and smaller */
@@ -469,9 +351,7 @@ fieldset[disabled] .btn-yellow.active {
     padding:0px;
   }
 
-  .about h1{
-    font-size: 22px;
-  }
+  
 
   .box h1{
     font-size: 24px;
@@ -500,19 +380,7 @@ fieldset[disabled] .btn-yellow.active {
     padding-right:15px;
   }
 
-  .product-page .page-title-transform {
-    font-size:30px;
-    line-height: 34px;
-    font-weight: bold;
-  }
-
-  #contact-us h1, #contact-us h4{
-    text-align: center;
-  }
-
-  .newsletter h3{
-     font-size: 22px !important;
-  }
+  
 
    section.module.parallax-1, section.module.parallax-2, section.module.parallax-3, section.module.parallax-4{
       -moz-background-size: auto;
