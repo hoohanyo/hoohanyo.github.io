@@ -26,10 +26,6 @@ body {
     background-size: cover;
 }
 
-body img {
-    max-width: 1024px;
-}
-
 .row-top {
     display: flex;
     overflow: hidden;
@@ -100,7 +96,7 @@ body img {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side-content {
-    flex: 40%;
+    flex: 30%;
 }
 
 .side-left-one {
@@ -112,7 +108,7 @@ body img {
 
 /* Main column */
 .main-content {
-    flex: 60%;
+    flex: 70%;
 }
 
 .main-right-one {
@@ -167,8 +163,8 @@ body img {
 }
 
   
-  /* When the height of the screen is less than 768 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-  @media screen and (max-height: 768px) {
+  /* When the height of the screen is less than 600 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 600px) {
 
     body {
       background-image: url("/img/futura-front.jpg");

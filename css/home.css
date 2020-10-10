@@ -168,15 +168,17 @@ body img {
 }
 
   
-  /* When the height of the screen is less than 768 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-  @media screen and (max-height: 768px) {
+  /* When the height of the screen is less than 600 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 600px) {
 
     body {
       background-image: url("/img/futura-front.jpg");
       margin-bottom: 3em;
       font-family: "Roboto-Thin";
-      background-attachment: scroll;
-    
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   
   body img {
