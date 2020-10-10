@@ -1,54 +1,117 @@
-#contact {
-    display: inline;
-    
-  }
+/*Footer-v1
 
-.contact-item {
-    margin: 5px;
-    border: 1px solid #ccc;
-    overflow: hidden;
-    float: left;
-    width: auto;
-    height: auto;
-    background-color: rgb(33, 34, 34);
-   
-    
+.blue{
+  color:#000040;
 }
 
-.item1 {
-   
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: auto;
-    height: 400px;
-    color: bisque;
+.dBlue{
+  color:#000033;
 }
 
-.item2 {
-   
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: auto;
-    height: 400px;
-    color: bisque;
+------------------------------------*/
+.footer-v1 .footer {
+	padding: 10px 0;	
+	background: #111;
+	
 }
 
-#googleMap {
-    
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: right;
-    width: auto;
-    height: 400px;
-    
+#logo-footer{
+	margin-bottom: 10px;
 }
 
-@media screen and (max-width: 600px) {
+.footer-v1 .footer p {
+	color: #eee;
+	font-size: 14px;
+}
 
-    .item1, .item2, #googleMap
-    {
-        float: none;
-    }
+.footer-v1 .footer h2 {
+	color: #eee;
+	font-size: 18px;
+	font-weight: 200;
+}
+
+/*Link List*/
+.footer-v1 .link-list li {
+	/*border-top: solid 1px #353535;*/
+	color: #eee;
+	line-height: 26px;
+	
+}
+
+.footer-v1 address,
+.footer-v1 .link-list a,
+.footer-v1 .link-list i {
+	color: #eee;
+}
+
+
+.footer-v1 a
+{
+	color:#fbbc00 !important;
+}
+
+
+
+.footer-v1 address {
+	line-height: 23px;
+}
+
+/*Dotted Map*/
+/*.footer-v1 .footer .map-img {
+	background: url(../../img/map-img.png) 5px 60px no-repeat;
+}*/
+
+/*Copyright*/
+.footer-v1 .copyright {
+	background: #000;
+	border-top: none;
+	padding: 10px 0 5px;
+	padding: 0px;
+	font-size: 10px;
+}
+
+
+
+.copyright .container, .copyright .container .row, .copyright .container .row .col-md-6{
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+
+}
+
+.footer-v1 .copyright p {
+	color: #666;
+	margin-top: 14px;
+	font-size: 12px;
+
+}
+
+.footer-v1 .copyright a {
+	margin: 0 2px;
+}
+
+.footer-v1 .footer-socials {
+	margin-top: 12px;
+	text-align: right;
+}
+
+.footer-v1 .footer-socials i a {
+	color:#fbbc00;
+}
+
+.footer-v1 .footer-socials i a:hover {
+	color:#ccc !important;
+}
+
+.footer-v1 .footer-socials i{
+	font-size: 40px;
+	padding-right: 10px;
+}
+
+@media (max-width: 991px) {
+	.footer-v1 .copyright,
+	.footer-v1 .footer-socials {
+		text-align: left;
+	}
 }
