@@ -4,109 +4,109 @@
 
 @font-face {
     font-family: "Roboto";
-    src: url("fonts/Roboto/Roboto-Thin.ttf");
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
     font-weight: 500;
 }
 
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url("../fonts/Roboto/Roboto-Thin.ttf");
+    font-weight: 500;
+}
+
+/* Style the body */
 body {
     margin: 0;
+    color: white;
     font-family: "Roboto";
-    background-color: #2b1721;
+    background-image: url("/img/parallax6.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.header {
-    text-align: center;
-    padding: 32px;
+body img {
+    max-width: 1024px;
 }
 
-#navbar {
+.row-top {
     display: flex;
-    background-color:#6b3940;
-    border: 2px solid #fbf8fb;
-   
-}
-
-/* Style the navigation bar links */
-#navbar a {
-    color: white;
-    padding: 0.8em 2em 0.625em 2em;
-    text-decoration: none;
-    font-family: "Roboto";
-    margin: 8px;
-    display: flex;
-    border: 1px solid rgb(92, 90, 90);
-    box-shadow: 3px 3px 10px #2b1721;
-    background-color: #2b1721;
-    border-radius: 8px;
-}
-
-/* Change color on hover */
-#navbar a:hover {
-    background-color: #6b3940;
-    color: white;
-    }
-
-.navbar-text {
-    float: right;
-    text-align: right;
-    padding: 0.625em 0.625em;
-    margin: 8px 8px 8px auto;
-    border: 4px solid  #2b1721;
-    box-shadow: 3px 3px 10px #2b1721;
-    background-color: #593f42;
-    border-radius: 10px;
-}
-
-.navbar-text h3 {
-    margin: 0;
-    color: white;
-    font-family: "Roboto";
-}
-
-.sticky {
+    overflow: hidden;
     position: fixed;
-    top: 0;
     width: 100%;
-  }
+    background-color:rgba(0, 0, 0, 0.6);
+    margin: 2px;
+}
 
-.row {
+.side-top {
+    flex: 30%;
+    
+}
+
+.ancotra {
+    padding: 10px;
+    margin: 2px 10px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+}
+
+.ancotra span {
+    color: #ff6251;
+}
+
+/*--------------*/
+
+.main-top {
+    flex: 70%;
+    float: right;
+    
+    
+}
+
+.openbtn {
+    float: right;
+    right: 10px;
+    padding: 10px;
+    margin: 15px 10px;
+    
+}
+
+.openbtn span {
+        width: 12px;
+        height: 12px;
+        border: 1px solid #ff6251;
+        margin: 2px;
+}
+
+.openbtn a {
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
+    width: 40px;
+    color: #ff6251;
+    
 }
 
-/* Create four equal columns that sits next to each other */
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
 
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
+  
+  /* When the height of the screen is less than 600 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 600px) {
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
+    body {
+      background-image: url("/img/futura-front.jpg");
+      background-size: cover;
+      margin-bottom: 3em;
+      font-family: "Roboto-Thin";
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+    
+     }
+  
+  body img {
+    max-height: 768px;
+  }
 
-    #navbar {
-        display: none;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
-
-    #navbar {
-        display: none;
-    }
-}
+  }

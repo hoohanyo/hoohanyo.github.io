@@ -17,11 +17,23 @@ body {
     background-color: rgb(131, 133, 129);
     background-image: url("/img/parallax6.jpg");
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
   }
+
+  body img {
+    max-width: 1024px;
+}
 
 .row-top {
     display: flex;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+    margin: 2px;
 }
 
 .side-top {
@@ -73,96 +85,23 @@ body {
 }
 
 
-/* The Overlay (background) */
-.overlay {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
-    height: 100%;
-    width: 0;
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    background-color: rgb(0,0,0); /* Black fallback color */
-    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-  }
-  
-  /* Position the content inside the overlay */
-  .overlay-content {
-    position: relative;
-    top: 25%; /* 25% from the top */
-    width: 100%; /* 100% width */
-    text-align: center; /* Centered text/links */
-    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-  }
-  
-  /* The navigation links inside the overlay */
-  .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block; /* Display block instead of inline */
-    transition: 0.3s; /* Transition effects on hover (color) */
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-  }
-  
-  /* Position the close button (top right corner) */
-  .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-  }
-  
   /* When the height of the screen is less than 600 pixels, change the font-size of the links and position the close button again, so they don't overlap */
   @media screen and (max-height: 600px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-      font-size: 40px;
-      top: 15px;
-      right: 35px;
-    }
 
     body {
       background-image: url("/img/futura-front.jpg");
       background-size: cover;
-    }
-
-    .overlay a {
-      font-family: "Roboto-Regular";
-    }
-
-   .row-top {
-      flex-direction: row;
- }
+      margin-bottom: 3em;
+      font-family: "Roboto-Thin";
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
     
-    .side-top, .main-top {
-        width: 100%;
-}
-    .ancotra {
-      font-size: 33px;
-      font-family: "Roboto-Regular";
-}
+     }
 
-     .openbtn {
-  
-     right: 5px;
-     padding: 10px;
-     margin: 10px 5px;
-
-}
-
-    .openbtn span {
-      width: 10px;
-      height: 10px;
-  
-}
+     body img {
+      max-height: 768px;
+  }
 
   }
   

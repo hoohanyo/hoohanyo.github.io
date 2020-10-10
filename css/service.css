@@ -186,7 +186,7 @@ body img {
     max-height: 768px;
 }
   .row-content
-    {
+{
        flex-direction: column;
    }
 

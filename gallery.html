@@ -5,33 +5,44 @@
     <title>anno coach travel - galéria</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/footer-mobile.css">
+    <link rel="stylesheet" href="css/gallerys-img.css">
     <link rel="stylesheet" href="css/gallerys.css">
-
-
+    <link rel="stylesheet" href="css/overlay.css">
 </head>
 
 <body>
 
+    <div id="myNav" class="overlay">
 
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-    <!-- Header -->
-    <div style="height: 1px;" class="gallery-header">
-        <!--<img src="img/VDL.jpg" alt="VDL Coach">-->
-    </div>
-
-    <!-- Navigation Bar -->
-    <div id="navbar">
-        <a href="index.html">Főoldal</a>
-        <a href="#">Szolgáltatás</a>
-        <a target="blank" href="gallery.html">Galéria</a>
-        <a href="#about">Rólunk</a>
-        <a href="#contact">Kacsolat</a>
-        <div class="navbar-text">
-            <h3> ANNO Coach Travel</h3>
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="home.html">Főoldal</a>
+            <a href="service.html">Szolgáltatás</a>
+            <a href="contact.html">Kapcsolat</a>
         </div>
 
     </div>
+
+
+    <div class="row-top">
+        <div class="side-top">
+            <h2 class="ancotra">anc<span>o</span>tra</h2>
+        </div>
+
+        <div class="main-top">
+            <div class="openbtn">
+                <a href="#" onclick="openNav()"><span></span><span></span><span></span><span></span></a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="js/overlay.js"></script>
+
 
     <!-- Photo Grid -->
     <div class="row">
@@ -73,32 +84,6 @@
             <img src="img/futura-sprinter.jpg" style="width:100%">
         </div>
     </div>
-
-
-
-    <div id="mySidepanel" class="sidepanel">
-
-        <a href="#home" onclick="closeNav()">Főoldal</a>
-        <a href="#" onclick="closeNav()">Szolgáltatás</a>
-        <a href="#" onclick="closeNav()">Galéria</a>
-        <a href="#" onclick="closeNav()">Rólunk</a>
-        <a href="#contact" onclick="closeNav()">Kapcsolat</a>
-
-        <button id="openbtn" onclick="openNav()">☰ Open</button>
-        <button id="closebtn" onclick="closeNav()">X Close</button>
-    </div>
-
-
-
-
-    <script src="js/footer.js"></script>
-    <script src="js/onscroll.js"></script>
-    <script src="js/googlemap.js"></script>
-    <script
-        src="https://maps.googleapis.com/maps/api/js?AIzaSyCQWzPfK-VyTtcc-M4SMnSEEcFEZe1Jh-0&callback=myMap"></script>
-
-
-
 
 </body>
 
