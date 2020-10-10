@@ -173,12 +173,9 @@ body img {
 
     body {
       background-image: url("/img/futura-front.jpg");
-      background-size: cover;
       margin-bottom: 3em;
       font-family: "Roboto-Thin";
       background-attachment: scroll;
-      background-position: center;
-      background-repeat: no-repeat;
     
     }
   
