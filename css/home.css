@@ -176,12 +176,15 @@ body img {
       background-size: cover;
       margin-bottom: 3em;
       font-family: "Roboto-Thin";
-      background-attachment: fixed;
+      background-attachment: scroll;
       background-position: center;
       background-repeat: no-repeat;
     
     }
   
+  body img {
+    max-height: 768px;
+}
   .row-content
     {
        flex-direction: column;
