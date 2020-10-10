@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-img {
+body img {
   max-width: 1024px;
 }
 
