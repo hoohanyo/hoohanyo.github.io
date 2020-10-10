@@ -14,7 +14,7 @@ body {
 }
 
 .side-top {
-    flex: 40%;
+    flex: 70%;
 }
 
 .ancotra {
@@ -33,7 +33,7 @@ body {
 /*--------------*/
 
 .main-top {
-    flex: 60%;
+    flex: 30%;
     float: right;
     
 }
