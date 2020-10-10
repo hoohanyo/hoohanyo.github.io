@@ -93,14 +93,12 @@ body {
       background-size: cover;
       margin-bottom: 3em;
       font-family: "Roboto-Thin";
-      background-attachment: scroll;
+      background-attachment: fixed;
       background-position: center;
-      background-repeat: no-repeat;
-    
-     }
+    }
 
      body img {
-      height: 768px;
+      max-height: 768px;
   }
 
   }
