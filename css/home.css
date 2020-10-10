@@ -180,11 +180,8 @@ body img {
       background-position: center;
       background-repeat: no-repeat;
     
-     }
+    }
   
-  body img {
-    max-height: 768px;
-}
   .row-content
     {
        flex-direction: column;
