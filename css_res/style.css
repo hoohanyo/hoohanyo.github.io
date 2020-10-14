@@ -108,49 +108,15 @@ border-radius: 8px;
       background-color: rgba(0, 0, 0, .8);
   }
 
-
-.top-rounded{
-  border-radius: 8px 8px 0px 0px; 
- -moz-border-radius: 8px 8px 0px 0px; 
- -webkit-border-radius: 8px 8px 0px 0px; 
- border: 0px solid #800000;
-}
-
-.thin{
-  font-weight: 100;
-}
-
-
-.mb10{
-  margin-bottom: 10px;
-}
-
 .mb20{
   margin-bottom: 20px;
 }
-.mb30{
-  margin-bottom: 30px;
-}
 
-.mb40{
-  margin-bottom: 40px;
-}
-
-.mt10{
-  margin-top: 10px;
-}
 
 .mt20{
   margin-top: 20px;
 }
 
-.mt30{
-  margin-top: 30px;
-}
-
-.mt30{
-  margin-top: 30px;
-}
 
 .white{
     color:#fff !important;
@@ -232,28 +198,6 @@ border-radius: 8px;
 }
 
 
-
-/*product pages*/
-
-.product-page .page-title {
-  
-  font-size: 57px;
-  /*background-color: rgb(171, 171, 171);*/
-  
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.product-page .page-title-transform {
-  
-  font-size: 48px;
-  /*background-color: rgb(171, 171, 171);*/
-  
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-
     .box{
         padding:60px;
         margin-top: 20px;
@@ -298,7 +242,7 @@ border-radius: 8px;
         height: auto !important;
     }
 
-     h1, .page-title, .product-page .page-title{
+     h1 {
       font-size: 40px;
       line-height: 46px;
     }
@@ -309,7 +253,7 @@ border-radius: 8px;
 /* Portrait phones and smaller */
 @media (max-width: 667px) {
 
-    h1, .page-title, .product-page .page-title{
+    h1 {
       font-size: 34px;
       line-height: 38px;
     }
@@ -323,35 +267,11 @@ border-radius: 8px;
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-   h1, .page-title, .product-page .page-title{
+   h1 {
       font-size: 30px;
       line-height: 34px;
     }
-
-   .bootslider{
-      margin-top: 110px !important
-    }
-
-    .bs-background img.fullheight{
-      right: 0px !important;
-    }
-
-    
-
-    
-
-  .bs-slide .textBox .heading{
-    margin-top:20px;
-    margin-bottom: 0px;
-    line-height: 28px;
-    text-align: center;
-  }
-
-  #slide1 .bs-vertical-center{
-    padding:0px;
-  }
-
-  
+ 
 
   .box h1{
     font-size: 24px;
@@ -385,7 +305,8 @@ border-radius: 8px;
    section.module.parallax-1, section.module.parallax-2, section.module.parallax-3, section.module.parallax-4{
       -moz-background-size: auto;
       -webkit-background-size: auto;
-      background-attachment: scroll;
+      /*background-attachment: scroll;*/
+      background-attachment: fixed;
       background-position: top;
       background-size: auto;
      }
