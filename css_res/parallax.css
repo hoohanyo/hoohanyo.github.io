@@ -30,21 +30,8 @@ section.module.parallax-3{
   height: 1200px;
 }
 
-section.module.parallax h1 {
-  /*color: rgba(255, 255, 255, 0.8);
-  font-size: 48px;
-  line-height: 68px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
-}
 
-section.module.parallax-3 {
- background-image: url("../img/dark-bg.jpg");
-}
-
-@media all and (max-width: 700px) {
+@media screen and (max-width: 700px) {
   /*section.module h2 {
     font-size: 42px;
   }
