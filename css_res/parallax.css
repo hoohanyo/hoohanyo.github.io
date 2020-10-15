@@ -8,14 +8,6 @@
   
 }
 
-::before {
-  content: ' ';
-  position: fixed; /* instead of background-attachment*/
-  will-change: scroll-position; /* creates a new paint layer*/
-  background-size: cover;
-  
-}
-
 /* ============================================================
   SECTIONS
 ============================================================ */
@@ -52,7 +44,7 @@ section.module.parallax-3 {
  background-image: url("../img/dark-bg.jpg");
 }
 
-@media all and (min-width: 600px) {
+@media all and (max-width: 700px) {
   /*section.module h2 {
     font-size: 42px;
   }
@@ -62,6 +54,22 @@ section.module.parallax-3 {
   section.module.parallax h1 {
     font-size: 96px;
   }*/
+
+  .parallax {
+    /*background-attachment: scroll !important;*/
+    background-attachment: fixed;
+    /*height: 500px !important;*/
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    /*background-attachment: scroll;*/
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+
+
 }
 @media all and (min-width: 960px) {
   /*section.module.parallax h1 {
