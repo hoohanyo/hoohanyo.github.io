@@ -11,7 +11,7 @@
 ::before {
   content: ' ';
   position: fixed; /* instead of background-attachment*/
-  will-change: auto; /* creates a new paint layer*/
+  will-change: scroll-position; /* creates a new paint layer*/
   background-size: cover;
   
 }

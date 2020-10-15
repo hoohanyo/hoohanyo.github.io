@@ -307,7 +307,7 @@ border-radius: 8px;
       /*background-attachment: scroll;*/
       background-attachment: fixed;
       background-position: top;
-      background-size: auto;
+      background-size: cover;
      }
 
   .darkArrow.indent{
