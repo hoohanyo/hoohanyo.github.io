@@ -5,7 +5,17 @@
   max-width: 960px;
   margin: 0 auto;
   padding-top: 180px;
+  
 }
+
+::before {
+  content: ' ';
+  position: fixed; /* instead of background-attachment*/
+  will-change: auto; /* creates a new paint layer*/
+  background-size: cover;
+  
+}
+
 /* ============================================================
   SECTIONS
 ============================================================ */
